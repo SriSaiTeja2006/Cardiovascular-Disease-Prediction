@@ -1,7 +1,16 @@
 # ❤️ Cardiovascular Disease Prediction – Machine Learning Project
 
 This repository contains a complete **end-to-end Machine Learning project** for predicting the risk of cardiovascular (heart) disease using patient health data.  
-The project includes **data preprocessing, exploratory data analysis (EDA), feature correlation analysis, model training and evaluation, and model deployment using Streamlit**.
+The project includes **data preprocessing, exploratory data analysis (EDA), feature correlation analysis, model training and evaluation**, and provides access to a **deployed Streamlit web application**.
+
+---
+
+## 🌐 Live Deployed Application (Streamlit)
+
+👉 **Streamlit App Link:**  
+https://heart-disease-prediction-5fzje5pmv29jnkedafbsfr.streamlit.app/
+
+The deployed application allows real-time prediction of cardiovascular disease risk using a professional medical-style dashboard.
 
 ---
 
@@ -61,7 +70,7 @@ EDA was performed to understand data distribution and relationships between feat
 - Outlier detection
 - Correlation analysis using a **heatmap**
 
-### 🔗 Correlation Matrix
+### 🔗 Correlation Matrix Insights
 The correlation matrix helped identify:
 - Strong relationships between blood pressure and heart disease
 - Impact of cholesterol and glucose levels
@@ -73,11 +82,11 @@ The correlation matrix helped identify:
 
 Multiple machine learning algorithms were trained and evaluated:
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Decision Tree
-- Random Forest
-- **Support Vector Machine (SVM)** ✅
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree  
+- Random Forest  
+- **Support Vector Machine (SVM)** ✅  
 
 ---
 
@@ -94,7 +103,7 @@ Multiple machine learning algorithms were trained and evaluated:
 ### ✅ Best Model Selected
 The **Support Vector Machine (SVM)** model was selected due to:
 - Higher accuracy
-- Better generalization
+- Better generalization capability
 - Robust performance on unseen data
 
 ---
@@ -106,7 +115,7 @@ The trained model and scaler were saved using `joblib` for deployment:
 - `heart_disease_model.pkl`
 - `scaler.pkl`
 
-These files are used directly in the deployed web application.
+These files are used directly in the deployed Streamlit web application.
 
 ---
 
@@ -119,7 +128,7 @@ The trained model is deployed as an interactive **Streamlit web application**, a
 - View cardiovascular disease risk prediction
 - See estimated risk percentage
 - Understand key factors influencing the prediction
-- Use a professional medical-style dashboard
+- Interact with a professional medical-style dashboard
 
 ---
 
@@ -128,10 +137,24 @@ The trained model is deployed as an interactive **Streamlit web application**, a
 - Automatic **BMI calculation**
 - **Risk percentage estimation** (SVM-safe method)
 - Feature-level **explainability**
-- **Medical disclaimer** for ethical usage
+- **Medical disclaimer** for ethical and responsible usage
 - User-friendly **Yes/No inputs** for lifestyle factors
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Purpose
 
+This repository focuses on:
+- Machine learning model development
+- Data analysis and visualization
+- Model evaluation results
+- Output screenshots and notebooks
+
+👉 The **deployment-ready code** is maintained separately for clarity and cleanliness.
+
+---
+
+## 🔗 Related Repository
+
+🚀 **Deployment & Source Code Repository:**  
+(Replace with your main repo link)
